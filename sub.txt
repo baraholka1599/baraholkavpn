@@ -8,3 +8,4 @@ vless://fcf1f671-7266-4877-b35b-7f77827e241a@89.19.223.92:8443?encryption=none&s
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@161.104.16.112:8880?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇮Финляндия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@193.42.61.231:47664?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇷Франция
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@45.195.111.77:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇭🇺Венгрия
+vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.180.20.250:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇰🇿Казахстан ухх сила ыхххых
