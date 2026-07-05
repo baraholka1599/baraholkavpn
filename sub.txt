@@ -1,6 +1,5 @@
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=iv.kommersant.ru&pbk=tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY&sid=a5bd715847213387#🇩🇪 Германия Белые списки
-
-vless://fcf1f671-7266-4877-b35b-7f77827e241a@109.121.44.35:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇳🇱Нидерланды
+vless://c09f37f2-ccbd-4b12-8268-349ccf260e2f@80.85.245.216:443?mode=gun&security=reality&encryption=none&pbk=kOCKZMtaPfQli7Fc0sEJumZEFjEMHU0OcvOgPi815HY&fp=randomized&spx=%2F&type=grpc&serviceName=Nvidia-OTA-Stream&sni=ota.nvidia.com#🇳🇱Нидерланды
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.253.66.121:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇩🇪Германия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@62.233.43.33:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇷🇺Россия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@eidos.chick-team.ru:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇨🇦Канада
