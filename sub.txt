@@ -1,4 +1,7 @@
 # profile-title: 31 VPN
+# profile-update-interval: 24
+# subscription-userinfo: upload=1073741824; download=2147483648; total=10737418240; expire=1798761600
+
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=iv.kommersant.ru&pbk=tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY&sid=a5bd715847213387#🇩🇪 Германия Белые списки
 vless://10e1b54e-9bd1-4181-b337-3e464f8051ec@213.219.212.14:443?flow=xtls-rprx-vision&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#🇷🇺Россия Быстрые Белые Списки
 vless://c09f37f2-ccbd-4b12-8268-349ccf260e2f@80.85.245.216:443?mode=gun&security=reality&encryption=none&pbk=kOCKZMtaPfQli7Fc0sEJumZEFjEMHU0OcvOgPi815HY&fp=randomized&spx=%2F&type=grpc&serviceName=Nvidia-OTA-Stream&sni=ota.nvidia.com#🇳🇱Нидерланды
