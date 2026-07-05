@@ -3,7 +3,7 @@ vless://fcf1f671-7266-4877-b35b-7f77827e241a@109.121.44.35:443?encryption=none&s
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.253.66.121:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇩🇪Германия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@62.233.43.33:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇷🇺Россия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@eidos.chick-team.ru:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇨🇦Канада
-vless://fcf1f671-7266-4877-b35b-7f77827e241a@185.17.0.39:9443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇨🇿Чехия
+vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@185.17.0.39:443?encryption=none&security=reality&sni=apple.com&fp=chrome&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&sid=be0191cc&type=tcp#🇨🇿Чехия
 vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@89.19.223.92:8443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇪🇪Эстония
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@161.104.16.112:8880?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇮Финляндия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@193.42.61.231:47664?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇷Франция
