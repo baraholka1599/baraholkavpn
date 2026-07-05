@@ -2,3 +2,4 @@ vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?encryption=none
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@109.121.44.35:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇳🇱Нидерланды
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.253.66.121:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇩🇪Германия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@62.233.43.33:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇷🇺Россия
+vless://fcf1f671-7266-4877-b35b-7f77827e241a@69.50.78.145:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇦🇬Антигуа и Барбуда
