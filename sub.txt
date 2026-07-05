@@ -1,0 +1,1 @@
+vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇩🇪Германия Белые списки
