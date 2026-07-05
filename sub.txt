@@ -8,4 +8,4 @@ vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@89.19.223.92:8443?encryption=none&s
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@161.104.16.112:8880?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇮Финляндия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@193.42.61.231:47664?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇷Франция
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@45.195.111.77:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇭🇺Венгрия
-vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.180.20.250:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇰🇿Казахстан ухх сила ыхххых
+vless://67baa13e-d41b-4acf-ad0f-4ad35a136f85@5.180.20.250:443?flow=xtls-rprx-vision&fp=firefox&pbk=jXft6ZrvH9A-7NbXJVwinQtS7NOg4F1NBbidnSNblHw&security=reality&sid=7c57276b676c9118&sni=knigi.riseads.in&type=tcp#🇰🇿Казахстан
