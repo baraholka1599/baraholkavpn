@@ -4,3 +4,4 @@ vless://fcf1f671-7266-4877-b35b-7f77827e241a@5.253.66.121:443?encryption=none&se
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@62.233.43.33:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇷🇺Россия
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@eidos.chick-team.ru:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇨🇦Канада
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@185.17.0.39:9443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇨🇿Чехия
+vless://fcf1f671-7266-4877-b35b-7f77827e241a@89.19.223.92:8443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇪🇪Эстония
