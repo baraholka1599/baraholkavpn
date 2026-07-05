@@ -1,1 +1,214 @@
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇩🇪Германия Белые списки
+{
+  "dns": {
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4",
+      "77.88.8.8",
+      "77.88.8.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "domain": [
+          "4pda.ru",
+          "kemono.su",
+          "jut.su",
+          "kara.su",
+          "theins.ru",
+          "tvrain.ru",
+          "echo.msk.ru",
+          "the-village.ru",
+          "snob.ru",
+          "novayagazeta.ru",
+          "moscowtimes.ru",
+          "play.google.com",
+          "rewards.bing.com",
+          "ads.twitch.tv",
+          "gql.twitch.tv",
+          "playlist.ttvnw.net",
+          "usher.ttvnw.net",
+          "live-video.net"
+        ],
+        "outboundTag": "proxy"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "geosite:private",
+          "geosite:category-ru",
+          "regexp:.*\\.ru$",
+          "regexp:.*\\.xn--p1ai$",
+          "regexp:.*\\.xn--p1acf$",
+          "regexp:.*\\.xn--p1ag$",
+          "domain:su",
+          "domain:xn--p1ai",
+          "domain:xn--80adxhks",
+          "domain:xn--80asehdb",
+          "domain:xn--80aswg",
+          "domain:xn--c1avg",
+          "domain:xn--d1acj3b",
+          "domain:xn--p1acf",
+          "buff.163.com",
+          "geosite:TLD-CN",
+          "geosite:alibaba",
+          "reddit.com",
+          "drive.google.com",
+          "one.google.com",
+          "geosite:adobe",
+          "faceit.com",
+          "faceit-cdn.net",
+          "geosite:google-play",
+          "geosite:epicgames",
+          "geosite:riot",
+          "geosite:steam",
+          "geosite:twitch",
+          "geosite:ubisoft",
+          "geosite:ea",
+          "icloud.com",
+          "photos.google.com",
+          "dropbox.com",
+          "onedrive.live.com",
+          "drive.google.com",
+          "icloud.com",
+          "mega.nz",
+          "max.ru",
+          "yastatic.net",
+          "yandexcloud.net",
+          "vtbglobalperspectives.com",
+          "vtb-direct.com",
+          "cdek.shopping",
+          "crashlytics.com",
+          "ozonusercontent.com",
+          "paywb.com",
+          "mtalk.google.com",
+          "push.apple.com",
+          "api.push.apple.com",
+          "push-apple.com.akadns.net",
+          "domain:*-courier.push.apple.com",
+          "ya.cc",
+          "yastat.net",
+          "yastatic.net",
+          "yclients.com",
+          "youla.io",
+          "zvuk-b2b.com",
+          "zvuk.com",
+          "full:clickstream.sberbank.ru",
+          "full:error-tracking.megamarket.tech",
+          "full:sentry.sberauto.com",
+          "full:tracing-http.megamarket.tech",
+          "full:visor.sberbank.ru"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:private",
+          "geoip:ru"
+        ],
+        "type": "field",
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.121.44.35",
+            "port": 443,
+            "users": [
+              {
+                "id": "fcf1f671-7266-4877-b35b-7f77827e241a",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "publicKey": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "shortId": "6e3f0a5b",
+          "spiderX": "/",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "Тест",
+  "meta": {
+    "serverDescription": "VLESS"
+  }
+}
