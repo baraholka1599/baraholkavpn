@@ -7,5 +7,5 @@ vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@185.17.0.39:9443?encryption=none&fl
 vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@89.19.223.92:8443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇪🇪Эстония
 vless://fcf1f671-7266-4877-b35b-7f77827e241a@161.104.16.112:8880?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇫🇮Финляндия
 vless://3f298aca-2412-49ac-9f20-235f0e448d31@franceclouding.iranlast.com:7000?security=reality&encryption=none&pbk=f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8&headerType=none&fp=qq&type=tcp&sni=yahoo.com#🇫🇷Франция
-vless://fcf1f671-7266-4877-b35b-7f77827e241a@45.195.111.77:443?encryption=none&security=tls&type=ws&host=www.apple.com&path=%2F#🇭🇺Венгрия
+vless://4af89b09-ce0c-4dab-b798-629d8b900af0@dp-hu-01.live:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=storage.yandex.net&fp=firefox&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&sid=f4b4a6365558ea2e&type=tcp&headerType=none#🇭🇺Венгрия
 vless://67baa13e-d41b-4acf-ad0f-4ad35a136f85@5.180.20.250:443?flow=xtls-rprx-vision&fp=firefox&pbk=jXft6ZrvH9A-7NbXJVwinQtS7NOg4F1NBbidnSNblHw&security=reality&sid=7c57276b676c9118&sni=knigi.riseads.in&type=tcp#🇰🇿Казахстан
