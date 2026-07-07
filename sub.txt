@@ -1,6 +1,6 @@
 # profile-title: 31 VPN
 # profile-update-interval: 1
-# subscription-userinfo: upload=0; download=0; total=9223372036854775809; expire=36645264000
+# subscription-userinfo: upload=0; download=0; total=3525192360830000000; expire=36645264000
 # Тут много стран
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.245.43:25567?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=iv.kommersant.ru&pbk=tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY&sid=a5bd715847213387#🇩🇪Германия Белые списки
 vless://fee5bf09-5d07-45e8-9a47-859b06694971@94.183.228.254:8443?encryption=none&type=tcp&security=reality&fp=firefox&pbk=QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc&sni=vk.ru&flow=xtls-rprx-vision#🇳🇱Нидерланды Белые Списки
